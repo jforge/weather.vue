@@ -1,2 +1,7 @@
 # weather.vue
-Weatherstation UI with Vue.js
+Weatherstation Dashboard with Vue.js
+
+## Project setup
+```
+yarn install
+```

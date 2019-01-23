@@ -1,0 +1,35 @@
+{
+  "name": "weather.vue",
+  "version": "1.0.0",
+  "description": "Weather Dashboard based on Vue.js and MQTT for Tinkerforge Weather Bricklet Messages",
+  "main": "index.js",
+  "scripts": {
+    "test": "yarn jest:coverage",
+    "jest": "jest",
+    "jest:watch": "yarn jest --watch",
+    "jest:coverage": "yarn jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jforge/weather.vue.git"
+  },
+  "keywords": [
+    "weather",
+    "vue",
+    "mqtt",
+    "tinkerforge"
+  ],
+  "author": "Klaus Pittig",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jforge/weather.vue/issues"
+  },
+  "homepage": "https://github.com/jforge/weather.vue#readme",
+  "dependencies": {
+    "mqtt": "^2.18.8",
+    "vue": "^2.5.22"
+  },
+  "devDependencies": {
+    "jest": "^23.6.0"
+  }
+}
